@@ -1,125 +1,143 @@
-h1{
-    color: rgba(233, 201, 16, 0.904);
-}
-h2{
-    color: #10e934da;
-}
-h3{
-    color: rgba(25, 126, 173, 0.897);
-}
-h4{
-    color: rgba(20, 18, 3, 0.856);
-}
-h5{
-    color: rgba(175, 105, 25, 0.897);
-}
-h6{
-    color: rgba(73, 7, 51, 0.801);
+body {
+  background-color: #f49e47;
+  background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png');
 }
 
-body{
-     background-color: rgba(199, 196, 196, 0.39);
+h1 {
+  color: #46484c;
+  text-align: center;
 }
 
-button{
-    color: indianred;
-    background-color:indigo;
+p {
+  color: #8b8b8bcc;
+  font-family: verdana;
+  font-size: 20px;
 }
 
-.fixed-header{
+button {
+  color: #fff;
+  background-color: #025157;
+}
+
+.fixed-header {
   position: fixed;
-  background-color: blanchedalmond;
+  background-color: white;
   top: 0;
   left: 0;
   right: 0;
 }
 
 .header {
-    margin: 40px 20px 0px 20xp;
-    font-size: 0;
-    line-height: 45px;
-  }
-  
-  li {
-    display: inline;
-  }
-  
-  .header > * {
-    display: inline-block;
-    font-size: 16px;
-    vertical-align: middle;
-    height: 100%;
-    line-height: 45px;
-  }
-  
-  .logo {
-    width: 15%;
-  }
-  
-  .navbar {
-    width: 70%;
-    text-align: left;
-    color: green;
-    font: sans-serif;
-    font-size: 20px;
-    line-height: 45px;
-  }
-  
-  .actions {
-    width: 15%;
-    text-align: center;
-    font-size: 14px;
-
-    padding-right: 10px;
-    padding-left: 10px;
-    color: #67b54b;
-  }
-
-  .boton{
-    background-color:#67b54b;
-    padding-top: 14px;
-    padding-bottom: 14px;
-
-    padding-left: 12px;
-    padding-right: 12px;
-
-    border-radius: 5px;
-
-    color: white;
-    color: white;
-  }
-
-.Publicidad h1{
-
-  color: #025157;
-  font: sans-serif;
-  font-size: 50px;
-  line-height: 48px;
-  
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0;
+  height: 45px;
+  font-family: sans-serif;
 }
-.Publicidad p{
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+
+li {
+  display: inline;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #025157;
+}
+
+.menu-item {
+  display: inline;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+}
+
+.actions > * {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.actions a {
+  color: #67b54b;
+}
+
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
+}
+
+.publish {
+  /* container styles if any */
+  margin-left: 20px;
+}
+
+.publish h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish > p {
   font-size: 16px;
   color: #343434;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
-.Promo{
+.publish > form {
   display: flex;
-  width: 30%;
-  margin: 100px;
 }
 
-.video{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-right: 30px;
-}
-
-.imagen{
-  display: flex;
-  flex-wrap: wrap;
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
 }
 
 
