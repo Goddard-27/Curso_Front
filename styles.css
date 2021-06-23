@@ -207,6 +207,31 @@ li {
 .tarjeta> img{
   width: 100%;
   border-radius: 5px;
+  position: relative;
+}
+
+.circulo{
+  position: fixed;
+  position: absolute;
+  right:250px; 
+  bottom: -1030px;
+
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 70%;
+ -webkit-border-radius: 70%;
+  border-radius: 70%;
+  background: #edfd0d;
+}
+
+.logo2{
+  position: absolute;
+  right:260px; 
+  bottom: -1000px;
+}
+
+.logo2 img{
+  width: 70px;
 }
 
 .tarjeta h3{
@@ -255,21 +280,5 @@ li {
   padding: 14px 12px 14px 12px;
 }
 
-.circulo{
-  position: fixed ; right:250px; bottom: 350px;
-  width: 100px;
-  height: 100px;
-  -moz-border-radius: 70%;
- -webkit-border-radius: 70%;
-  border-radius: 70%;
-  background: #edfd0d;
-}
 
-.logo2{
-  position: fixed ; right:260px; bottom: 380px;
-}
-
-.logo2 img{
-  width: 70px;
-}
 
