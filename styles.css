@@ -213,8 +213,8 @@ li {
 .circulo{
   position: fixed;
   position: absolute;
-  right:250px; 
-  bottom: -1030px;
+  right:200px; 
+  bottom: -1150px;
 
   width: 100px;
   height: 100px;
@@ -226,8 +226,8 @@ li {
 
 .logo2{
   position: absolute;
-  right:260px; 
-  bottom: -1000px;
+  right:210px; 
+  bottom: -1120px;
 }
 
 .logo2 img{
