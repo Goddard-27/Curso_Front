@@ -148,6 +148,8 @@ li {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
+
+  padding-bottom: 50px;
 }
 
 .texto{
@@ -288,19 +290,24 @@ li {
   /* grid-template-columns: 1fr 1fr; */
 
   grid-template: repeat(2, 330px) / repeat(2, 1fr);
-  align-items: center;
+  grid-gap: 20px 5px;
+  background-color: #025157;
 }
 
 .feature-art1{
   display: flex;
   flex-direction: column;
   background-color: white;
-  margin: 10px;
-  width: 95%;
-  height: 95%;
+
+  width: 80%;
+  height: 70%;
   border-radius: 5px;
+
+  margin-left: 17%;
+  margin-top: 10%;
 }
-.feature-art1 >img{
+
+.feature-art1 img{
   width: 10%;
 }
 .feature-art1 >button{
@@ -314,10 +321,12 @@ li {
 
 .feature-art2{
   background-color: white;
-  margin: 10px;
-  width: 95%;
-  height: 95%;
+  width: 80%;
+  height: 70%;
   border-radius: 5px;
+
+  margin-top: 10%;
+  margin-right: 17%;
 }
 .feature-art2 >img{
   width: 10%;
@@ -333,10 +342,12 @@ li {
 
 .feature-art3{
   background-color: white;
-  margin: 10px;
-  width: 95%;
-  height: 95%;
+  width: 80%;
+  height: 70%;
   border-radius: 5px;
+
+  margin-left: 17%;
+  margin-top: -5%;
 }
 .feature-art3 >img{
   width: 10%;
@@ -352,10 +363,12 @@ li {
 
 .feature-art4{
   background-color: white;
-  margin: 10px;
-  width: 95%;
-  height: 95%;
+  width: 80%;
+  height: 70%;
   border-radius: 5px;
+
+  margin-right: 17%;
+  margin-top: -5%;
 }
 .feature-art4 >button{
   color:rgb(16, 204, 9);
