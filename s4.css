@@ -35,6 +35,30 @@
   
   .item-2 { flex-basis: 100px ; flex-grow: 2 } 
   
-  .item-3 { flex-basis: 100px ; flex-grow: 1 } 
+  .item-3 { flex-basis: 100px ; flex-grow: 2 } 
   
-  .item-4 { flex-basis: 100px ; flex-grow: 1 } 
+  .item-4 { flex-basis: 100px ; flex-grow: 1 }
+
+
+/*   .espacios{
+    background-color: yellowgreen;
+    display: flex;
+    width: 400px;
+    height: 40px;
+  }
+
+.espacios> .item{
+  background-color:rgba(165, 16, 16, 0.473);
+  width: 40px;
+  height: 40px;
+}
+
+.espacios p{
+  background-color:rgba(11, 13, 105, 0.733);
+  width: 40px;
+  height: 40px;
+} */
+
+/* .espacios {
+  background-color: violet;
+} */
