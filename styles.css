@@ -284,39 +284,41 @@ li {
 
 .features{
   display:grid;
-  grid-template: repeat(2, 380px) / repeat(2, 1fr);
+  padding: 5% 10%;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+
   background-color: #025157;
-  grid-gap: 30px 30px;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+
 }
 
-/*------------------------------------------------Card 1 */
-.card1{
+.card_features{
   background-color: white;
   display: flex;
-  border-radius: 5px;
-
-  margin: 10% 0% 0% 25%;
-
-}
-
-.card1 .card1_texto{
-  width: 60%;
+  border-radius: 6px;
   position: relative;
+  overflow: hidden;
 }
-.card1_texto h3{
+
+ .card_features .card_texto{
+  overflow: hidden;
+}  
+
+.card_texto h3{
   font-size: 24px;
   color: #343434;
   font-weight: 400;
 
   margin: 80px 0px 0px 50px;
 }
-.card1_texto p{
+.card_texto p{
   font-size: 16px;
   color: #343434;
   
   margin: 20px 0px 20px 50px;
 }
-.card1_texto button{
+.card_texto button{
   color:rgb(16, 204, 9);
   background-color:transparent;
   border: 0;
@@ -326,196 +328,32 @@ li {
   height: 45px;
   border-radius: 8px;
 
-  margin: 0px 0px 0px 50px;
+  margin: 0px 0px 20px 50px;
 }
-.card1_texto img{
-  width: 17%;
+.card_texto img{
+  width: 10%;
   position:absolute;
   top:5%;
   left: 50px;
 }
 
-.card1 .card1_img{
-  background-color: rgb(156, 50, 205);
-  width: 40%;
-  height: 70%;
-  margin-top: 5%;
-  margin-left: 10%;
+.card_features .card_img{
+  width: 90%;
 }
-.card1_img img{
-  width: 250%;
+.card_img img{
+  width: 40%;
+  height: 80%;
+  position: absolute;
+  right: -50px;
+  top: 20px;
 } 
 
 
 
-/*------------------------------------------------Card 2 */
-.card2{
-  background-color: white;
-  display: flex;
-  border-radius: 5px;
-
-  margin: 10% 25% 0% 0%;
-}
-
-.card2 .card2_texto{ 
-  width: 60%;
-  position: relative;
-}
-.card2_texto h3{
-  font-size: 24px;
-  color: #343434;
-  font-weight: 400;
-
-  margin: 80px 0px 0px 50px;
-}
-
-.card2_texto p{
-  font-size: 16px;
-  color: #343434;
-  
-  margin: 20px 0px 20px 50px;
-}
-.card2_texto button{
-  color:rgb(16, 204, 9);
-  background-color:transparent;
-  border: 0;
-  font-size: 17px;
-  font-weight: 600;
-  padding-top: 12px 12px 6px 12px;
-  height: 45px;
-  border-radius: 8px;
-
-  margin: 0px 0px 0px 50px;
-}
-.card2_texto img{
-  width: 17%;
-  position:absolute;
-  top:5%;
-  left: 50px;
-}
-
-.card2 .card2_img{
-  background-color: rgb(156, 50, 205);
-  width: 40%;
-}
-.card2_img img{
-  width: 200%;
-} 
-
-
-/*------------------------------------------------Card 3 */
-.card3{
-  background-color: white;
-  display: flex;
-  border-radius: 5px;
-
-  margin: 0% 0% 10% 25%;
-}
-
-.card3 .card3_texto{ 
-  width: 60%;
-  position: relative;
-}
-.card3_texto h3{
-  font-size: 24px;
-  color: #343434;
-  font-weight: 400;
-
-  margin: 80px 0px 0px 50px;
-}
-
-.card3_texto p{
-  font-size: 16px;
-  color: #343434;
-  
-  margin: 20px 0px 20px 50px;
-}
-.card3_texto button{
-  color:rgb(16, 204, 9);
-  background-color:transparent;
-  border: 0;
-  font-size: 17px;
-  font-weight: 600;
-  padding-top: 12px 12px 6px 12px;
-  height: 45px;
-  border-radius: 8px;
-
-  margin: 0px 0px 0px 50px;
-}
-.card3_texto img{
-  width: 17%;
-  position:absolute;
-  top:5%;
-  left: 50px;
-}
-
-.card3 .card3_img{
-  background-color: rgb(156, 50, 205);
-  width: 30%;
-  height: 100%;
-}
-.card3_img img{
-  width: 200%;
-  z-index:initial;
-}
 
 
 
 
-/*------------------------------------------------Card 4 */
-.card4{
-  background-color: white;
-  display: flex;
-  border-radius: 5px;
-
-  margin: 0% 25% 10% 0%;
-}
-
-.card4 .card4_texto{ 
-  width: 60%;
-  position: relative;
-}
-.card4_texto h3{
-  font-size: 24px;
-  color: #343434;
-  font-weight: 400;
-
-  margin: 80px 0px 0px 50px;
-}
-
-.card4_texto p{
-  font-size: 16px;
-  color: #343434;
-  
-  margin: 20px 0px 20px 50px;
-}
-.card4_texto button{
-  color:rgb(16, 204, 9);
-  background-color:transparent;
-  border: 0;
-  font-size: 17px;
-  font-weight: 600;
-  padding-top: 12px 12px 6px 12px;
-  height: 45px;
-  border-radius: 8px;
-
-  margin: 0px 0px 0px 50px;
-}
-.card4_texto img{
-  width: 17%;
-  position:absolute;
-  top:5%;
-  left: 50px;
-}
-
-.card4 .card4_img{
-  background-color: rgb(156, 50, 205);
-  width: 30%;
-  height: 100%;
-}
-.card4_img img{
-  width: 200%;
-}
 
 .prework2{
   display: flex;
